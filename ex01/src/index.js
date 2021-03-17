@@ -4,11 +4,10 @@ var myPet = {
     name: "Maia",
     legs: 4,
     friends: ["Luigi", "Garfield"]
-
-}
+};
 
 function myFunction(myPet) {
-return myPet;
+    return myPet;
 }
 // Only change code above this line
 
