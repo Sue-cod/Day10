@@ -13,7 +13,7 @@ function myFunction() {
         },
         002: {
             // Add a record here
-            artist: "Billy JoelMetallica",
+            artist: "Metallica",
             title: "Master of Puppets",
             release_year: 1986,
             formats: {
@@ -24,6 +24,8 @@ function myFunction() {
             gold: true
         }
     };
+    return myMusic;
 }
 myFunction()[2];
+console.log(myFunction()[2]);
 module.exports = myFunction;
